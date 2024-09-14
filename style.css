@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+h1{
+    margin: 0px;
+    padding: 10px;
+}
+body > header{
+    background-color: aquamarine;
+    color: blue;
+    font-family: "Protest Guerilla", sans-serif ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#nav-ul{
+    list-style-type: none;
+    display: flex;
+}
+#nav-ul>li{
+    padding: 30px;
+    margin: 16px;
+}
+.flex-container{
+    display:flex;
+    align-items: center;
+}
+.navbutton{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px dashed blue;
+    border-radius: 10%;
+    white-space: nowrap;
+}
+body > main  article {
+    width: 70%;
+    margin: auto;
+}
+#main-content{
+    display:flex;
+    justify-content: space-around;
+}
+
+#main-content>div{
+    width: 80%;
+}
+form{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+ul{
+    margin: 0px;
+}
+body > footer{
+    background-color: aquamarine;
+    display: flex;
+}
+img {
+    border-radius: 5%;
+}
+#footer-ul{
+    display: flex;
+    list-style: none;
+
+    justify-content: space-between;
+}
+#footer-ul>div>li{
+    margin-left: 12px;
+}
+#footer-ul>div>li>a{
+    color: rgb(9, 84, 70);
+    text-decoration: none;
+}
