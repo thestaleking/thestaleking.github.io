@@ -1,8 +1,25 @@
 img {
-    width: 300px;
+    width: 100pc;
     height: auto;
-    border-radius: 10px;
+    border-radius:2% ;
   }
-.header{
+
+h1{
     text-align: center;
+    color: red;
+    font-size :50px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    }
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: pink;
+}
+main{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
 }
