@@ -3,7 +3,8 @@ img {
     width: 100%;
     height: auto;
     border-radius:2% ;
-  }
+    border-right: 2% ;
+}
 
 h1{
     text-align: center;
